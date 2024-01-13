@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Without using reverse method</h1>
+    <script>
+        var a= prompt(`enter the string`);
+        var splits=a.split("");
+        var p=[];
+        var l=a.length;
+        console.log(splits);
+         for(var i=l-1;i>=0;i--){
+            p.push(splits[i]);
+            
+
+         }
+
+         document.write(p.split(''));
+    </script>
+</body>
+</html>
